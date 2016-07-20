@@ -15,7 +15,7 @@ image:
     caption: Image by Antonio
     caption_url: "http://www.aisleone.net/"
 categories:
-    - design
+    - code
     - typography
 ---
 <!--more-->
