@@ -1,6 +1,6 @@
 ---
 layout: blog
-show_meta: false
+show_meta: true
 title: "Code for Thought"
 subheadline: "Layouts of Feeling Responsive"
 header:
@@ -8,7 +8,9 @@ header:
 permalink: "/code/"
 ---
 <ul>
-    {% for post in site.categories.design %}
+    {% for post in site.categories.code %}
     <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
+
+{% for post in site.categories.project %} {% include _pagination_small.html %} {% endfor %}
