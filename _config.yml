@@ -107,7 +107,7 @@ defaults:
       path: '' 				# an empty string here means all files in the project
       type: 'pages'
     values:
-      show_meta: false 	# Hide metadata for all pages
+      show_meta: true 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
       author: Kerrie Mariah    # Default author for pages
