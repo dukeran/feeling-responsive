@@ -4,7 +4,7 @@ title:  "Header Image With Pattern"
 subheadline:  "Headers With Style"
 teaser: "Feeling Responsive allows you to use all kinds of headers. This example shows a header image in front of a pattern."
 categories:
-    - design
+    - code
 tags:
     - design
     - pattern

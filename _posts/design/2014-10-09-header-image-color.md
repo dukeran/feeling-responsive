@@ -4,7 +4,7 @@ title:  "Header Image With Background Color"
 subheadline:  "Headers With Style"
 teaser: "Feeling Responsive allows you to use all kinds of headers. This example shows a header image with a defined background color via front matter."
 categories:
-    - design
+    - code
 tags:
     - design
     - background color
