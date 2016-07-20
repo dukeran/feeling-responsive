@@ -1,13 +1,13 @@
-- title: Start
+- title: Home
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
+- title: About
+  url: "/about/"
   side: left
 
-- title: "Templates"
-  url: "/design/"
+- title: "Code for Thought"
+  url: "/code-for-thought/"
   side: left
   dropdown:
   - title: "Grid & Colors"
@@ -31,8 +31,8 @@
   - title: "Portfolio"
     url: "/design/portfolio/"
 
-- title: "Header Styles"
-  url: "/headers/"
+- title: "Healthy Roots"
+  url: "/healthy-roots/"
   side: left
   dropdown:
   - title: "Header with Full-Width-Image"
@@ -50,8 +50,8 @@
   - title: "No Header but Image"
     url: "/design/no-header-but-image/"
 
-- title: Documentation
-  url: "/documentation/"
+- title: Literature and Musings
+  url: "/literature-and-musings/"
   side: left
   dropdown:
   - title: "Changelog"
