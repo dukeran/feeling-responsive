@@ -13,4 +13,4 @@ permalink: "/code/"
     {% endfor %}
 </ul>
 
-{% for post in site.categories.project %} {% include _pagination_small.html %} {% endfor %}
+{% for post in site.categories.code %} {% include _pagination_small.html %} {% endfor %}
