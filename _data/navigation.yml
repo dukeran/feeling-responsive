@@ -7,7 +7,7 @@
   side: left
 
 - title: "Code for Thought"
-  url: "/code-for-thought/"
+  url: "/code/"
   side: left
   dropdown:
   - title: "Grid & Colors"
