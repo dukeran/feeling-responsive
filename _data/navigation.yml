@@ -9,62 +9,21 @@
 - title: "Code for Thought"
   url: "/code/"
   side: left
-  dropdown:
-  - title: "Grid & Colors"
-    url: "/code/grid/"
-  - title: "Typography"
-    url: "/code/typography/typography/"
-  - title: "Page/Post"
-    url: "/code/page/"
-  - title: "Introduction to the Traveling Code"
-    url: "/code/post-left-sidebar/"
-  - title: "/introduction-to-traveling-code/"
-    url: "/code/post-right-sidebar/"
-  - title: "Page Full-Width"
-    url: "/code/page-fullwidth/"
-  - title: "Blog-Page"
-    url: "/blog/"
-  - title: "Video"
-    url: "/code/video/"
-  - title: "Gallery"
-    url: "/code/gallery/"
-  - title: "Portfolio"
-    url: "/code/portfolio/"
+
 
 - title: "Healthy Roots"
   url: "/healthy-roots/"
   side: left
-  dropdown:
-  - title: "Header with Full-Width-Image"
-    url: "/code/header-full-width-image/"
-  - title: "Header with Image and Pattern"
-    url: "/code/header-image-pattern/"
-  - title: "Header with image and color"
-    url: "/code/header-image-color/"
-  - title: "Header Only With Logo"
-    url: "/code/header-logo-only/"
-  - title: "Header With Text"
-    url: "/code/header-with-text/"
-  - title: "No Header"
-    url: "/code/no-header/"
-  - title: "No Header but Image"
-    url: "/code/no-header-but-image/"
 
 - title: Literature and Musings
   url: "/literature-and-musings/"
   side: left
-  dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
+
 
 - title: Blog
   url: "/blog/"
   side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+
 
 - title: "Search"
   url: "/search/"

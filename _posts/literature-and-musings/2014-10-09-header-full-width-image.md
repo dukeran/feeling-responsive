@@ -6,9 +6,7 @@ teaser: "Feeling Responsive allows you to use all kinds of headers. This example
 categories:
     - code
 tags:
-    - design
-    - background color
-    - header
+  -
 image:
    thumb: "unsplash_brooklyn-bridge-thumb.jpg"
 header:
@@ -30,7 +28,7 @@ header:
 
 
 
-### All Header-Styles 
+### All Header-Styles
 {: .t60 }
 
 {% include list-posts tag='header' %}

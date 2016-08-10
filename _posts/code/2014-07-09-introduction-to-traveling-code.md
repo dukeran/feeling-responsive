@@ -3,11 +3,12 @@ layout: page
 sidebar: left
 subheadline: Traveling Code
 title:  Introduction to the Traveling Code
-teaser: "The beginnning of my adventure of backpacking throughout South American and learning to code for the first time."
+teaser: "Life is full of surprises. Four years ago, if I was told that one day I would be writing a travel blog about coding, I would have laughed. Four years ago I was herding cows in the Atlas mountains in Morocco, living with the Berber people in a tiny village that didn't have running water, let alone internet or computers. Even up to a couple of months ago I hadn't the slightest idea of what coding entailed or what Ruby even was..."
 tags:
     - post format
 categories:
     - code
+    - traveling_code
 image:
     thumb: gallery-example-3-thumb.jpg
     title: gallery-example-3.jpg
@@ -20,9 +21,6 @@ image:
 <center><img src="http://i.imgur.com/afjR3yl.jpg" alt="The Sahara on camelback" height="200" width="200" style="margin:20px 20px">
 </center>
 </div>
-
-Life is full of surprises. Four years ago, if I was told that one day I would be writing a travel blog about coding, I would have laughed. Four years ago I was herding cows in the Atlas mountains in Morocco, living with the Berber people in a tiny village that didn't have running water, let alone internet or computers. Even up to a couple of months ago I hadn't the slightest idea of what coding entailed or what Ruby even was...
-
 
 
 One night, a good friend of mine started pitching the idea of coding over a couple of beers. It was cold outside and the two tankards of Blue Moon had warmed me up to the idea of learning a computer language. After all, I thought, I am a linguistics student, learning a computer language can't be all that difficult after my experiences learning languages such as Chinese and Russian. Boy, was I wrong. <!--more-->

@@ -4,7 +4,7 @@ title: "Header With Text"
 subheadline: "Headers With Style"
 teaser: "Feeling Responsive allows you to use all kinds of headers. This header is with text."
 categories:
-    - code
+
 tags:
     - design
     - background color
@@ -29,7 +29,7 @@ header:
     caption_url: https://unsplash.com/
 ~~~
 
-### All Header-Styles 
+### All Header-Styles
 {: .t60 }
 
 {% include list-posts tag='header' %}
