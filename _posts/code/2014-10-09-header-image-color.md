@@ -6,9 +6,7 @@ teaser: "Feeling Responsive allows you to use all kinds of headers. This example
 categories:
 
 tags:
-    - design
-    - background color
-    - header
+
 header:
     image: header_unsplash_2-970x.jpg
     background-color:  "#304558"
