@@ -22,4 +22,16 @@ Symbols are used so often, that if you don't know what they are or how they are 
 
 ` :name, :email, :phone_number `
 
-Symbols are often used as keys - an object that you will manipulate and call upon often throughout the app.
+Symbols are often used as keys - an object that you will manipulate and call upon often throughout the app. They are important because they are easir for Ruby to access.
+
+##Strings
+
+Strings are used to store a particular value. It's much harder to manipulate a string the same way you manipulate a key. It's wordier and is harder to conceptualize then symbols which are easier to treat as symbols. Strings are written out in either single or double quotation marks.
+
+`"Hello World!"`
+
+You can instantly tell that this is a string instead of a symbol (other than the quotations of coures) because of the capitalization, exclamation mark, and the space.
+
+When it comes to keys, keep it simple, keep it clean, and keep it short. A key is a single word, the second you need punctuation of any sort or the symbol becomes lengthy, it's time to use a stirng.
+
+
