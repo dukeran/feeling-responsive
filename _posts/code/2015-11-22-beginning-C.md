@@ -1,5 +1,3 @@
-2015-11-22-beginning-C.md
-
 layout: page
 subheadline: "Teach Yourself C"
 title: "Review of the Preface"
