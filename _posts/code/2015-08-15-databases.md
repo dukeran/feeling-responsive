@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline: "DRake"
+subheadline: "Drake"
 title: "Databases"
 teaser: "Today I added some information into the seeds.rb file and ran ` $ bin/rails db:seed ` and then `$ ran bin/rails s`. To my horror, all the information that I had had was gone! No errors showed up on local host and I felt at a loss since my understanding of databases is so limited. Thankfully with the help of my co-worker, we figured out a solution."
 header:
