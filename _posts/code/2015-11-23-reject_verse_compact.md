@@ -10,15 +10,15 @@ header:
 
 
 ```ruby
-	def lecture_time_formatter(string)
-       string.split(/\n/).join(",")
-       string.split(/\n/).compact.reject(&:blank?).uniq.join(",")
-     end
+def lecture_time_formatter(string)
+	string.split(/\n/).join(",")
+	string.split(/\n/).compact.reject(&:blank?).uniq.join(",")
+end
 ```
 
-*Me* Is the `string.split(/\n/)` defining what is there or is it a function?
+*Me*	Is the `string.split(/\n/)` defining what is there or is it a function?
 
-*James* `.split` is a function, while `string` is a string object. `.split` is a method defined on **strings** that then takes a single argument, the substring to split on. Splitting strings will return an array of substrings, split by the character defined in the argument.
+*James*		`.split` is a function, while `string` is a string object. `.split` is a method defined on **strings** that then takes a single argument, the substring to split on. Splitting strings will return an array of substrings, split by the character defined in the argument.
 
 For example:
 
@@ -47,9 +47,9 @@ or
 
 ["My", "age", "is", 20.3].join(" LOL ") # => "My LOL age LOL is LOL 20.3"
 
-*Me* That makes sense
+*Me* 	That makes sense
 
-*James* So, the original two lines you gave me basically state that you take a string, split into lines, get rid of any nils, get rid of any blanks, get rid of duplicates, and then join them with commas.
+*James* 	So, the original two lines you gave me basically state that you take a string, split into lines, get rid of any nils, get rid of any blanks, get rid of duplicates, and then join them with commas.
 
 There's a subtlety to why there's `.compact.reject(&:blank)` is that `split` will have a nil if there's two dilineators in a row. `compact.reject(&:blank?)` is actually redundant and could just be `.reject(&:blank?)`
 
@@ -57,65 +57,67 @@ That is: `string.split(/\n/).compact.reject(&:blank?).uniq.join(",")` is exactly
 
 Ok, quiz time, why are they equivalent?
 
-*Me* Because compacting and rejecting will do the same thing won’t it? Compacting is getting rid of the ‘spaces’ to make it a pretty string while rejecting is getting rid of the ‘Nils' ... but the nils = spaces
+*Me* 	Because compacting and rejecting will do the same thing won’t it? Compacting is getting rid of the ‘spaces’ to make it a pretty string while rejecting is getting rid of the ‘Nils' ... but the nils = spaces
 
-*James* You're on the right track but I want you to state something specific about the return values of a certain function in order for me to know you fully understand it.
+*James* 	You're on the right track but I want you to state something specific about the return values of a certain function in order for me to know you fully understand it.
 
 Note that:
 
 `["a", "", "b", "", "c"].compact # => ["a", "", "b", "", "c"]`
 
-*Me* So if you wrote `string.split(/\n/).compact.uniq.join(“,”) you’d return an array with empty strings in it
+*Me*	 So if you wrote `string.split(/\n/).compact.uniq.join(“,”) you’d return an array with empty strings in it
 
-*James* Correct, well it's actually even more interesting than that now that I think about it.
+*James* 	Correct, well it's actually even more interesting than that now that I think about it.
 
-*Me* so, then what exactly does compact do?
+*Me* 	So, then what exactly does compact do?
 
-*James* `.compact` removes `nils`
+*James* 	`.compact` removes `nils`
 `["a", "", nil].compact # => ["a", ""]`
 
-*Me* So a `" "` isn’t actually nil?
+*Me* 	So a `" "` isn’t actually nil?
 
-*James* Correct. Actually for that matter:
+*James* 	Correct. Actually for that matter:
 
 `array.compact.reject(&:blank?)` is the same as `array.reject(&:blank?)`
 
-*Me* There is something special about a subset of the bigger part of what we wanted to remove from the main set
+*Me* 	There is something special about a subset of the bigger part of what we wanted to remove from the main set
 
-*James* Yes. Bingo. `.compact` is the same as `.reject{|x| x == nil}`
+*James* 	Yes. Bingo. `.compact` is the same as `.reject{|x| x == nil}`
 
-*Me* Got it, and then `.reject` will reject whatever you define but `.reject` can’t take zero arguments
+*Me* 	Got it, and then `.reject` will reject whatever you define but `.reject` can’t take zero arguments
 
-*James* so we can restate what we're saying as:
+*James* 	so we can restate what we're saying as:
 
 `.reject{|x| x == nil}.reject{|x| x.blank?}` is the same as `.reject{|x| x.blank?}`
 
-*Me* so reject has to take at least one argument
+*Me* 	so reject has to take at least one argument
 
-*James* "Reject requires at least one argument" is an accurate statement
+*James* 	"Reject requires at least one argument" is an accurate statement
 
-*Me* While compact doesn’t require an argument because its argument is inferred within the method.
+*Me*	 While compact doesn’t require an argument because its argument is inferred within the method.
 
-*James* That's not a statement that I can't evaluate the correctness of because it doesn't fit the jargon of this field, but I don't think it's dangerous for you to think it.
+*James* 	That's not a statement that I can't evaluate the correctness of because it doesn't fit the jargon of this field, but I don't think it's dangerous for you to think it.
 
-so why is `.reject{|x| x == nil}.reject{|x| x.blank?}` is the same as `.reject{|x| x.blank?}`
+So why is `.reject{|x| x == nil}.reject{|x| x.blank?}` is the same as `.reject{|x| x.blank?}`
 
-*Me* For some reason i’m hesitating in saying that it is because if x == blank than x == nil
+*Me* 	For some reason i’m hesitating in saying that it is because if x == blank than x == nil
 
-*James* You're so close `blank` is not an object `x == blank` is not meaningful
+*James* 	You're so close `blank` is not an object `x == blank` is not meaningful
 
-*Me* Is there a connection between an emptry string and the nil value?
+*Me* 	Is there a connection between an emptry string and the nil value?
 
-*James* Only in passing, there is a method, defined both on `""` and on `nil`, that returns the same value when called on both, that is the way in which they are related.
+*James* 	Only in passing, there is a method, defined both on `""` and on `nil`, that returns the same value when called on both, that is the way in which they are related.
 (not, but `" "` is not "the empty string", only `""` is)
 
-*Me* In some way, `.reject{|x| x.blank?}` includes `.reject{|x| x == nil}` in its set
+*Me*	 In some way, `.reject{|x| x.blank?}` includes `.reject{|x| x == nil}` in its set
 
-*James* Yes, that is correct, buy *why*
+*James* 	Yes, that is correct, buy *why*
 
-*Me* `.blank?` returns the same value on an empty string and nil
+*Me* 	`.blank?` returns the same value on an empty string and nil
 
-*James* YES!
+*James* 	YES!
+
+* 	*	*
 
 In other words, to sum everything up in a programmer's jargon;
 
