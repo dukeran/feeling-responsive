@@ -1,25 +1,52 @@
 ---
 layout: page
 show_meta: false
-title: "Getting Started"
-subheadline: "A Step-by-Step Guide"
-teaser: "This step-by-step guide helps you to customize Feeling Responsive to your needs."
+title: "Getting Started On Life"
+subheadline: "A Little Bit About Durham"
+teaser: "Kerrie Durham just graduated from the University of Florida as a double major in both Linguistics and Mandarin. Her goal is to travel the world and experience as much of this life as possible."
 header:
    image_fullwidth: "header_homepage_13.jpg"
 permalink: "/about/"
 ---
-1. Open `_config.yml` and work it through, it's well documented
-1. Add your own `logo.png` to `/assets/img/`.
-1. Open `_data/socialmedia.yml` and add your own social media links.
-1. Open `_data/navigation.yml` and customize your navigation.
-1. Open `_data/language.yml` and translate the theme if necessary.
-1. Open `_data/services.yml` and customize links in the footer.
-1. Open `_data/network.yml` and customize links in the footer.
-1. Open `_data/authors.yml` and edit author information and set default author in `config.yml`.
-1. [Read the documentation][1] to check out all features of *Feeling Responsive*.
-1. Make it yours and add your own content.
 
-<a class="radius button small" href="{{ site.url }}/documentation/">Check out the documentation for all the tricks ›</a>
+<br>
+
+**Fascinations and Academic Pursuits**
+
+* The current growth of Artificial Intelligence
+
+* The need for Artificial Intelligence policy before it is too late
+
+* How technological problem solving and development can improve universal quality of life
+
+**Hobbies**
+
+* Training hard and traveling the country for fencing tournaments
+
+* Fishing and hunting
+
+* Triathlons
+
+* Cooking healthy!
+
+**Countries Traveled To**
+
+* Morocco
+
+* Italy
+
+* Russia
+
+* Ecuador
+
+* Peru
+
+* Chile
+
+* People's Republic of China
+
+* Canada
+
+* Mexico
 
 
- [1]: {{ site.url }}/documentation/
