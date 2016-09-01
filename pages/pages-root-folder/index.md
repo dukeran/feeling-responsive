@@ -15,8 +15,9 @@ widget1:
 widget2:
   title: "Healthy Roots "
   url: 'http://dukeran.github.io/feeling-responsive/healthy-roots/'
+  image: widget-healthy-303x182.jpg
   text: '<em>Healthy Roots</em> is a section which discusses how to eat healthier, live healthier, and overall exist healthier. We will explore any ideas - ranging from the most arcane to common sense!'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+
 widget3:
   title: "Literature and Musings"
   url: 'http://dukeran.github.io/feeling-responsive/literature-and-musings'
