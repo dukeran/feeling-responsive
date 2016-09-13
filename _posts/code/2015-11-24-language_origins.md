@@ -5,7 +5,7 @@ layout: page
 #
 subheadline: "Teach Yourself C"
 title: "Does Programming Hold the Key to Understanding Human Language?"
-teaser: "After just finishing the first chapter of Schildt's book, I can't help but be struck how similar the first (and potentially more) chapter of this book was to a grammar book for a foreign language. For example, there is a segment in the first chapter which states, "a prototype consists of a function's name, its return type, and its parameter list...the compiler needs to know this information in order for it to properly execute a call to the function." This is the equivalent of a grammar book explaining how a sentence is structured in the foreign language; a sentence contains an object, verb, and subject. Just switch out the word 'compiler' with 'brain' and it strikes me as a very human-like system."
+teaser: "After just finishing the first chapter of Schildt's book, I can't help but be struck how similar the first (and potentially more) chapter of this book was to a grammar book for a foreign language. For example, there is a segment in the first chapter which states, 'a prototype consists of a function's name, its return type, and its parameter list...the compiler needs to know this information in order for it to properly execute a call to the function.' This is the equivalent of a grammar book explaining how a sentence is structured in the foreign language; a sentence contains an object, verb, and subject. Just switch out the word 'compiler' with 'brain' and it strikes me as a very human-like system."
 categories:
   - code
 tags:
