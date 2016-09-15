@@ -15,7 +15,6 @@ image:
     caption_url: "http://www.aisleone.net/"
 categories:
     - code
-    - typography
 ---
 ###Hardcore Parcour
 

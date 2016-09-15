@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "An Interesting Question Posed With Compilers In Mind"
+title: "Running My First C Program"
 subheadline: "Teach Yourself C"
 teaser: "Yesterday I was talking to a friend about C and compilers. In Ruby, the need to compile a code is unheard of and the concept was completely foreign to me with C - once again reminding me why I am learning C in the first place. There is so much I am learning from C that I would never have learned from Ruby! And as much as it pains me to say it, learning Ruby first has some disadvantages. For one, Ruby *does* compile your code, it just does it behind the poorly lit alley so that no one can see it. Much of Ruby is done behind the scenes so you don't have to worry your pretty little programmer head about it - which makes it incredibly convenient but also misleading."
 categories:
@@ -10,7 +10,7 @@ tags:
     - background color
     - header
 header:
-    title: header with text
+    title: C Programming
     background-color: "#EFC94C;"
 #    pattern: pattern_concrete.jpg
     image_fullwidth: unsplash_brooklyn-bridge_header.jpg
