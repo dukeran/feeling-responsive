@@ -8,9 +8,9 @@ categories:
 tags:
     - code
 image:
-title: unsplash_eagle.jpg
-caption_url: https://unsplash.com/
-
+    thumb:  typewriter-thumb.jpg
+    homepage: homepage_typewriter.jpg
+author: mo
 ---
 
 
