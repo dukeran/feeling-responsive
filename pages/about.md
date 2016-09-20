@@ -33,20 +33,12 @@ permalink: "/about/"
 
 * Morocco
 
-* Italy
+* Italy, Russia
 
-* Russia
-
-* Ecuador
-
-* Peru
-
-* Chile
+* Ecuador, Peru, Chile
 
 * People's Republic of China
 
-* Canada
-
-* Mexico
+* Canada, Mexico
 
 

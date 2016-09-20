@@ -7,10 +7,10 @@ categories:
     - code
 tags:
     - code
+header:
+    image_fullwidth: "unsplash_brooklyn-bridge_header.jpg"
 image:
-    thumb:  typewriter-thumb.jpg
-    homepage: homepage_typewriter.jpg
-author: mo
+    thumb: "unsplash_brooklyn-bridge-thumb.jpg"
 ---
 
 
