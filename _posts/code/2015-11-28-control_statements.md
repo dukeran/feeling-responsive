@@ -25,3 +25,28 @@ Note: the *else* is always associated with the nearest *if* in the same block.
 
 The *for* is super flexible and doesn't place a limit on the types of expressions that occur inside of it. There are three parts to the expression in a *for* loop; **initialization, conditional-test, and increment**. The **increment** portion is the expression that is evaluated each and everytime the loop iterates.
 
+Note: when there is no expression in the conditional portion of the *for*, the compiler assumes that the condition is true, and the loop will run continuously.
+
+
+* while loop *
+
+The *while* loop will continue to loop for as long as the expression is true;
+
+~~~
+while(expression) statement;
+~~~
+
+If the expression is false, nothing inside the while loop will run.
+
+* do loop *
+
+~~~
+do {
+	statements
+} while(expression)
+~~~
+
+The curly brackets are not mandatory if only one statement is being repeated, but it is good practice to always include them in a * do loop*. Like the *while*, the *do* repeats itself while the expression is true and only stops once the expression is false. What makes the *do loop* different, however, is that it will ALWAYS execute the code within the loop at least once, since the machine doesn't analyze the truth value of the expression until after the block of code.
+
+It is important to remember that any of C;s loops may be nested with another loop!
+
