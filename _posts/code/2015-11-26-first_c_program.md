@@ -20,7 +20,7 @@ categories:
     - code
 ---
 
-Even though I have almost finished chapter two of "Teach Yourself C", I have yet to run a C program (shameful I know!). The book is a grammar book - not one to help you set up all the programs involved with running C code. Fair enough. I phoned a friend for help, the biggest confusion was this compiler nonesense. I use Sublime and homebrew, so I assumed that if I just switched the Sublime language from Ruby to C, and run `$ C filename.c` that it'll all come out swimmingly! Right? Wrong.
+Even though I have almost finished chapter two of "Teach Yourself C", I have yet to run a C program (shameful I know!). The book is a grammar book - not one to help you set up all the programs involved with running C code. Fair enough. I phoned a friend for help, the biggest confusion was this compiler nonsense. I use Sublime and homebrew, so I assumed that if I just switched the Sublime language from Ruby to C, and run `$ C filename.c` that it'll all come out swimmingly! Right? Wrong.
 
 So I learned that the compiling process is as follows (2016 version, assuming you already have homebrew installed);
 
@@ -62,7 +62,7 @@ Now that gcc is installed, I learned how to run the compiler process. First I ma
 
 `$ gcc filename.c -o filename`
 
-The `-o` means 'output', so in essence I am calling gcc ( the compiler ) to take it's initial argument ( filename.c ) and make it into machine language which I have decided to name `filename`. This `filename` file - note that it is a new file that I have named the same as the original C file but without the .c because it is no longer an actual C file - is then the file that I run on my computer. To run the new and improved machine langauge file I type in;
+The `-o` means 'output', so in essence I am calling gcc ( the compiler ) to take its initial argument ( filename.c ) and make it into machine language which I have decided to name `filename`. This `filename` file - note that it is a new file that I have named the same as the original C file but without the .c because it is no longer an actual C file - is then the file that I run on my computer. To run the new and improved machine language file I type in;
 
 `$ ./filename `
 

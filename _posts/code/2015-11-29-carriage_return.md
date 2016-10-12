@@ -14,7 +14,7 @@ image:
     title: gallery-example-3.jpg
 ---
 
-I looked up the name 'carriage return', to see if my suspicions as to the origins of the name were true. And they were! Carriage return comes from the age of typewriters, where the carriage return was the lever which would cause the assemly holding the paper to return to the right side of the machine in order to type a new line again on the left-side of the paper.  The carriage itself was the device that held the paper, and the return the mechanism to bring the paper back to its original starting point.
+I looked up the name 'carriage return', to see if my suspicions as to the origins of the name were true. And they were! Carriage return comes from the age of typewriters, where the carriage return was the lever which would cause the assembly holding the paper to return to the right side of the machine in order to type a new line again on the left-side of the paper.  The carriage itself was the device that held the paper, and the return the mechanism to bring the paper back to its original starting point.
 
 This made me wonder, if a programming language used the term carriage return, typewriters were either in common use during the creation of programming languages....or....of course. While following my train of thought I nearly facepalmed. As one of the first generations to be a native to the age of the internet, computers, and laptops, I had completely forgotten that in the not-so-distant past, laptops would have been not only common, but the only way to 'type up' anything!
 
