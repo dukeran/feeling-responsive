@@ -15,7 +15,7 @@ image:
 ---
 
 
-###The beginning of _Traveling Code_
+### The beginning of _Traveling Code_
 
 <div id="container">
 <center><img src="http://i.imgur.com/afjR3yl.jpg" alt="The Sahara on camelback" height="200" width="200" style="margin:20px 20px">

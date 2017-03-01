@@ -18,7 +18,7 @@ tags:
 </div>
 
 
-####The Technology: Dell CRM3120-1667BLK 11.6" Chromebook
+#### The Technology: Dell CRM3120-1667BLK 11.6" Chromebook
 This has been my favorite laptop that I have ever used. Granted, I haven't used more than probably 3 clunky old laptops but I can gaurantee that this is undoubtably my favorite. It's small, fast, spill proof (incredibly important when it comes to me), and it isn't loaded down with stupid and unecessary programs. All this for the price $199.99 on Amazon which makes it a steal unless you're planning to use it for gaming...but I don't know much about that since I'm all about the Xbox.
 
 So far this laptop has worked great for the few things that I need a laptop to do; browse reddit, code Ruby, watch Archer, and stream...videos. Thankfully my friend James Gibson was able to install chroot in order for us to play with the linux system and install Ruby.
@@ -28,7 +28,7 @@ If anyone is interested in the chromebook, here's the [link](http://www.amazon.c
 ![Back view](http://imgur.com/GCpqHm9.jpg)
 
 
-####Knowledge is Power: _Learn to Program_ second edition by Chris Pine
+#### Knowledge is Power: _Learn to Program_ second edition by Chris Pine
 When James first lent me this book, it was pristine and the spine unbroken. Now it lays here, dog-eared, marked, highlighted, and coffee stained (that's why the spill-proof laptop was so valuable). I have read it cover to cover and overall I would give it an excellent rating. The beginning 8 chapters are phenomenal; easy to read and even made me chuckle. His smooth writing and horrible jokes made the book fun and actually motivated me to do the challenging assignments at the end of each chapter. However, chapter 9 left me feeling abandoned and inccapable as he leaped into more complicated coding without any actual teaching. Chapter 9 and on had me pulling my hair and asking my friends for help constantly because in my mind it was either sink or swim. However, I kept at it and when I finished the book I definitely beleived that the book was 100% worth it. It serves as an excellent reference guide and opened the door to how coders think and the problems they face. It also served as an excellent foundation to someone who has never had an inkling of coding before in her life.
 
 His chapters and the concepts he covered are as follows:
